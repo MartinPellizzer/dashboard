@@ -30,6 +30,7 @@ var myChart = new Chart(ctx, {
     options: {
         responsive: true,
         maintainAspectRatio: false,
+        legend: false,
         scales: {
             yAxes: [{
                 ticks: {

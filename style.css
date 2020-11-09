@@ -31,8 +31,10 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex: 0 0 7rem;
+    padding: 3rem;
 }
+
+/* ----- NAVBAR ----- */
 
 nav {
     background-color: rgba(0, 0, 0, 0.1);
@@ -40,15 +42,14 @@ nav {
     flex-direction: row;
     align-items: center;
     /*flex: 0 0 7rem;*/
-    margin-bottom: 5rem;
 }
 
 .nav-list {
-
+    display: flex;
 }
 
 .nav-item {
-    padding: 3rem;
+    padding: 2rem 3rem;
 }
 .nav-item:hover {
     background-color: rgba(0, 0, 0, 0.05);
@@ -59,14 +60,29 @@ nav {
     fill: white;
 }
 
+main {
+    display: flex;
+    padding: 3rem;
+    flex: 1;
+    gap: 3rem;
+}
+
+.real-time-container {
+    background-color: rgba(51, 119, 171, 0.5);
+    display: flex;
+    flex: 1;
+    border-radius: 1rem;
+    min-width: 30rem;
+}
+
 .chart-container {
     height: 100%;
-    width: 90%;
+    flex: 3;
     margin: auto;
 
     /*border: 3px solid red;*/
 }
 
 footer {
-    margin-top: 5rem;
+    /*margin-top: 1rem;*/
 }
